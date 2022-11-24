@@ -7,9 +7,9 @@ import 'package:material_kit_flutter/screens/settings.dart';
 import 'package:material_kit_flutter/screens/components.dart';
 import 'package:material_kit_flutter/screens/onboarding.dart';
 
-void main() => runApp(MaterialKitPROFlutter());
+void main() => runApp(ADGSDK());
 
-class MaterialKitPROFlutter extends StatelessWidget {
+class ADGSDK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

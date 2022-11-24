@@ -10,7 +10,7 @@ class Onboarding extends StatelessWidget {
       Container(
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage("assets/img/onboard-background-free.jpg"),
+                  image: AssetImage("assets/img/background.jpg"),
                   fit: BoxFit.cover))),
       Padding(
         padding:
@@ -28,13 +28,13 @@ class Onboarding extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 48.0),
                       child: Text.rich(TextSpan(
-                        text: "Material Kit",
+                        text: "ADGSDK",
                         style: TextStyle(color: Colors.white, fontSize: 58),
                       )),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(top: 24.0),
-                      child: Text("Fully coded Flutter widgets and screens.",
+                      child: Text("Powerful SDK for Flutter",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 18,
@@ -45,7 +45,6 @@ class Onboarding extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 42.0),
                   child: Row(children: <Widget>[
-                    Image.asset("assets/img/logo-ios.png", scale: 2.6),
                     SizedBox(width: 30.0),
                     Image.asset("assets/img/logo-android.png", scale: 2.6)
                   ]),
